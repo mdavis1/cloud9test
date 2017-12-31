@@ -1,0 +1,60 @@
+1.4.1 Activity Answers
+
+Name: KEY
+
+Step 3: The code was most likely stored on the tape with punch holes to represent 1 or 0 (on or off).
+
+Step 4: High-level documentation is important because it allows a programmer or user to work with or modify the program without needing to understanded all of the underlying
+        machine code.
+        
+Step 5: If people don't collaborate to create standards then it makes sharing information very difficult and possibly impossible.
+
+Step 6: get_title() is one possible example.  Students should look up this information using the 1.4 reference card or online. 
+        https://matplotlib.org/api/axes_api.html
+
+Step 7: The _init_ method has three arguments (self, myRadius, myColor).
+
+Step 8: fiat is the name that was given to realityArtist.py when it was imported.  It is used here as a "nickname".
+
+Step 9: The line print mike.color will print: #BB7700 or light orange.
+
+Step 10: The size and color of the ball should be diameter=10 mm, color='#FF0000'(red).
+
+Step 11: To draw a circle all the was around the ball that is red, use: emily.draw_circle(20, 'FF0000')
+         To draw a smaller black circle: emily.draw_circle(10, 'FFFFFF')
+         To draw a smaller gray circle: emily.draw_circle(10, '808080')
+         
+Step 12: items[1] is emily.
+         items[3].color will return the color of the 4th item in the list.
+
+Step 13: items[3].draw_circle(myColor='#00FF00', diameter=6) will cause the 4th ball to draw a small green circle.
+
+Step 14: This step will cause every ball to draw a filled in red circle.
+
+Step 15: This produces an error.  You can't append an item to an object.  It must be appended to a list.
+
+Step 16: Some difference between the GolfBall and PingPongBall class are as follows.
+         The constructor size and color is different.  The draw_circle method draws a smaller circle that is green instead of red in color.
+         
+Step 17: The for-loop will add 8 new golf balls to the list that was created eariler.
+
+Step 18:  Each ball in the list will call the draw_circle method.  When the ball is a PingPongBall, the method will draw a red
+          circle of diameter 10 that is not filled in.  When the ball is a GolfBall, the method will draw a green ball that is filled in.
+          
+Steps 19- 21:  Design a car class and some other class of the class' choosing.
+
+Conclusion 1: Answers vary. Example: Dog food. A daily chore is to feed my dogs. I know I feed Fort and Buttercup each 1 cup and Sadie 0.5 cup. 
+              But the quantity is the detail I keep in the abstraction. When I'm feeding them, I'm not thinking about all the gory details of what's in the food. 
+              And I'm not worried about how many kibbles or how much air is in that 1 cup measure. It's just a cup. I'd get a headache if I had to deal with 
+              all the details all the time.
+              
+Conclusion 2: Procedural abstraction is giving a procedure a name (or a pointer to the first instruction) and then not worrying about how it gets its job done.
+              Data abstraction is agreeing on standard or protocol for how data will be represented at a lower level of abstraction, 
+              so that at the high level we can think about a high level data structure like an image and not worry about 
+              the details of how it actually represented at a lower level.
+              
+Conclusion 3: Answers vary; the goal is to get students thinking about these three concepts in a way that goes deeper than repetition, exposing student 
+              conceptions of these ideas.
+              Example: Maybe it is because GUIs are event-driven, so programs were more likely to need an object to know about itself. 
+              That's because in event-driven programming you don't know the sequence of procedures that will be followed; that is determined at run time by the user.
+              Example: Maybe it's just that all three are developments of the first decades of modern computing.
